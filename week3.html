@@ -9,23 +9,27 @@
  </head>
 
 
- <body>
-           <!-- This is my navbar at the top of the page-->
+ <body>     <!-- So for this project they wanted us to have a .gitignore and a nomodules without quotes
+              and also a package.json which we see is all present. We were required to make another website
+            usinh HTML and Bootstrap that had atleast 2 pages and included a navbar, form, and a table. Also using
+            bootstrap grid spacing and insuring our elements stack vertically.-->
+           
+            <!-- This is my navbar at the top of the page-->
    <nav class="navbar navbar-expand-lg navbar-light bg-dark-subtle text-bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://www.nhl.com/avalanche/">Colorado Avalance</a>
+          <a class="navbar-brand" href="https://www.nhl.com/avalanche/">Colorado Avalance</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
           </button>
        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"> Home </a>
-               </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="avalanche.html"> Roster </a>
-                 </li>
-              </ul>
+        <ul class="navbar-nav">
+         <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="week3.html"> Home </a>
+         </li>
+         <li class="nav-item">
+         <a class="nav-link" href="avalanche.html"> Roster </a>
+         </li>
+        </ul>
         </div>
      </div>
     </nav>
@@ -38,7 +42,7 @@
     <!-- Some Bootstrap Cards-->
    <div class="container">
      <div class="row">
-     <div class="col-md-4 mb-3">
+     <div class="col-md-4">
      <div class="card">
      <div class="card-body">
                 <h3 class="card-title text-decoration-underline text-center"> Nathan MacKinnon </h3>
@@ -48,7 +52,7 @@
           </div>
           </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4">
           <div class="card">
           <div class="card-body">
                 <h3 class="card-title text-decoration-underline text-center">Mikko Rantanen</h3>
@@ -58,7 +62,7 @@
           </div>
           </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4">
           <div class="card">
           <div class="card-body">
                 <h3 class="card-title text-decoration-underline text-center">Cale Makar</h3>
@@ -81,28 +85,29 @@
 
     
 
-<!-- This is my form-->
-    <div class="row col-5">
-        <h4 class="fw-bold text-center mt-3"></h4>
-        <form class=" bg-white px-8">
-          <p class="fw-bold text-bg-danger text-center"> Will the Avalanche Win The Stanely Cup?</p>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="exampleForm" id="radioExample1" />
-            <label class="form-check-label" for="radioExample1">
-              Yes
-            </label>
+<!-- This is my form, close the page to showcase how elements are stacking vertically-->
+
+<div class="row col-5">
+    <h4 class="fw-bold text-center mt-3"></h4>
+    <form class=" bg-white px-8">
+    <p class="fw-bold text-bg-danger text-center"> Will the Avalanche Win The Stanely Cup?</p>
+    <div class="form-check mb-4">
+      <input class="form-check-input text-bg-dark" type="radio" name="exampleForm" id="radioExample1" />
+        <label class="form-check-label" for="radioExample1">
+            Yes
+        </label>
           </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="exampleForm" id="radioExample2" />
-            <label class="form-check-label" for="radioExample2">
-              No
-            </label>
+          <div class="form-check mb-4">
+         <input class="form-check-input text-bg-dark" type="radio" name="exampleForm" id="radioExample2" />
+         <label class="form-check-label" for="radioExample2">
+            No
+         </label>
           </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="exampleForm" id="radioExample3" />
+          <div class="form-check mb-4">
+            <input class="form-check-input text-bg-dark" type="radio" name="exampleForm" id="radioExample3" />
             <label class="form-check-label" for="radioExample3">
               Duhh of Course
-            </label>
+        </label>
           </div>
         </form>
         <div class="text-end">
@@ -111,72 +116,15 @@
       </div>
     
         <hr>
-
+<div class="container-fluid">
 <h4 class="h4">
     <footer> <b> GO AVS!!! </b> </footer>
     &lt; &copy; Kyle Cassidy &gt;
 <h4>
+</div>
 
-         
+          <script src="node_modules/jquery/dist/jquery.js"> </script>
+          <script src="node_modules/bootstrap/dist/bootstrap.bundle.js"> </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-    
-    
-    
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    <script src="node_modules/jquery/dist/jquery.js"> </script>
-    <script src="node_modules/bootstrap/dist/bootstrap.bundle.js"> </script>
-
-
-    
 </body>
 </html>
